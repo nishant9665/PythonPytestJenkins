@@ -50,3 +50,5 @@ Generating report to temp directory...
 
 clean the old report and generate the new report
 (.venv) PS C:\Nishant_Study\PythonJenkinsPytest\Operations> python -m pytest --alluredir allure-results --clean-alluredir .\test_Login.py
+
+python -m pytest --alluredir allure-results --clean-alluredir .\test_calculator.py
